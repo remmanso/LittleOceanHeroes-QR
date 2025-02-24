@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send a Message</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        button { display: block; width: 80%; margin: 10px auto; padding: 15px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h2>Choose Your Messaging App</h2>
+    
+    <button onclick="window.location.href='https://wa.me/?text=Hello%20there!'">Send via WhatsApp</button>
+    <button onclick="window.location.href='https://t.me/share/url?url=&text=Hello%20there!'">Send via Telegram</button>
+    <button onclick="window.location.href='sms:?body=Hello%20there!'">Send via SMS</button>
+    <button onclick="window.location.href='mailto:?subject=Message&body=Hello%20there!'">Send via Email</button>
+
+</body>
+</html>
