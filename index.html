@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Send a Message</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        button { display: block; width: 80%; margin: 10px auto; padding: 15px; font-size: 18px; }
+        body { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; padding: 20px; }
+        button { display: block; width: 60%; margin: 10px auto; padding: 15px; font-size: 18px; }
     </style>
 </head>
 <body>
-    <h2>Choose Your Messaging App</h2>
-    
-    <button onclick="window.location.href='https://wa.me/?text=Hello%20there!'">Send via WhatsApp</button>
-    <button onclick="window.location.href='https://t.me/share/url?url=&text=Hello%20there!'">Send via Telegram</button>
-    <button onclick="window.location.href='sms:?body=Hello%20there!'">Send via SMS</button>
-    <button onclick="window.location.href='mailto:?subject=Message&body=Hello%20there!'">Send via Email</button>
-
+	<button onclick="window.location.href='https://wa.me/?text=WhatsApp'">WhatsApp</button>
+	<button onclick="window.location.href='https://t.me/share/url?url=&text=Telegram'">Telegram</button>
+	<button onclick="window.location.href='sms:?body=SMS'">SMS</button>
+	<button onclick="window.location.href='mailto:?subject=Message&body=Email'">Email</button>
+	<button onclick="window.location.href='https://m.me/?text=Messenger (May not work directly)'">Facebook Messenger</button>
+	<button onclick="window.location.href='https://signal.me/#p/+33628912797'">Signal</button>
+	<button onclick="window.location.href='viber://forward?text=Viber'">Viber</button>
+	<button onclick="window.location.href='https://line.me/R/msg/text/?Line'">Line</button>
+	<button onclick="window.location.href='skype:?chat&message=Skype'">Skype</button>
 </body>
 </html>
